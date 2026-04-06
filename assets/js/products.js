@@ -6,6 +6,9 @@
 
    COLORES: agrega colors: ['Negro', 'Blanco', 'Rosado'] al producto
    Si no tiene variantes de color, simplemente omite el campo colors
+
+   INSTAGRAM: agrega igPost: 'https://www.instagram.com/p/ABC123/' para enlazar al post específico
+   Si no tiene post en IG, omite el campo y el botón no aparece
    ============================================================ */
 
 const INSTAGRAM_URL = 'https://www.instagram.com/not_ordinary_pe';
@@ -24,6 +27,7 @@ const categories = [
         colors: ['Gris', 'Negro'],
         price: 'S/ 89',
         imgs: ['fotos/IMG_8220.webp'],
+        igPost: '',  // pega aquí la URL del post: 'https://www.instagram.com/p/ABC123/'
         visible: true,
       },
       {

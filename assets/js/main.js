@@ -87,9 +87,12 @@ function createCard(product, categoryName) {
       }
       <div class="product-card-footer">
         <span class="product-card-price">${product.price}</span>
-        <a href="${INSTAGRAM_URL}" target="_blank" rel="noopener" class="product-card-cta" aria-label="Ver en Instagram">
-          ${IG_ICON} Ver en IG
-        </a>
+        ${product.igPost
+          ? `<a href="${product.igPost}" target="_blank" rel="noopener" class="product-card-cta" aria-label="Ver en Instagram">
+              ${IG_ICON} Ver en IG
+             </a>`
+          : ''
+        }
       </div>
     </div>
   `;
