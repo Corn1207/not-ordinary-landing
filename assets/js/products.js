@@ -3,6 +3,9 @@
 
    Para OCULTAR una categoría completa: cambia visible: true → false
    Para OCULTAR un producto individual: cambia visible: true → false
+
+   COLORES: agrega colors: ['Negro', 'Blanco', 'Rosado'] al producto
+   Si no tiene variantes de color, simplemente omite el campo colors
    ============================================================ */
 
 const INSTAGRAM_URL = 'https://www.instagram.com/not_ordinary_pe';
@@ -18,6 +21,7 @@ const categories = [
         name: 'Polo Twice Collection',
         description: 'Polo oversized con estampado Twice, tela suave premium',
         sizes: ['S', 'M', 'L'],
+        colors: ['Gris', 'Negro'],
         price: 'S/ 89',
         imgs: ['fotos/IMG_8220.webp'],
         visible: true,

@@ -79,6 +79,12 @@ function createCard(product, categoryName) {
       <div class="product-card-sizes">
         ${product.sizes.map(s => `<span class="size-chip">${s}</span>`).join('')}
       </div>
+      ${product.colors && product.colors.length
+        ? `<div class="product-card-colors">
+            ${product.colors.map(c => `<span class="color-chip">${c}</span>`).join('')}
+           </div>`
+        : ''
+      }
       <div class="product-card-footer">
         <span class="product-card-price">${product.price}</span>
         <a href="${INSTAGRAM_URL}" target="_blank" rel="noopener" class="product-card-cta" aria-label="Ver en Instagram">

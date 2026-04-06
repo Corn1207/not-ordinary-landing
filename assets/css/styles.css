@@ -525,6 +525,24 @@ nav.scrolled {
   border: 1px solid var(--rose);
 }
 
+.product-card-colors {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.9rem;
+}
+
+.color-chip {
+  background: var(--white);
+  color: var(--gray);
+  padding: 0.2rem 0.55rem;
+  border-radius: 0.4rem;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  border: 1px solid var(--gray-border);
+}
+
 .product-card-footer {
   display: flex;
   align-items: center;
