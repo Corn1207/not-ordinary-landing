@@ -777,6 +777,16 @@ footer {
   letter-spacing: 0.04em;
 }
 
+/* ── CATALOG LOADING ── */
+.catalog-loading {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--gray);
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+}
+
 /* ── FADE IN ANIMATION ── */
 .fade-in {
   opacity: 0;

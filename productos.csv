@@ -1,0 +1,45 @@
+id,name,category_id,category_name,category_visible,description,sizes,colors,price,img1,img2,img3,igPost,visible
+1,Polo Twice Collection,polos,Polos,TRUE,Polo oversized con estampado Twice tela suave premium,"S,M,L",Gris,S/ 89,https://res.cloudinary.com/dkskckiik/image/upload/v1775434006/IMG_8220_b5mehs.webp,,,, TRUE
+2,Polo Karma — Stray Kids,polos,Polos,TRUE,Polo oversized azul con estampado Karma en la espalda,"S,M,L,XL",,S/ 89,https://res.cloudinary.com/dkskckiik/image/upload/v1775434010/IMG_8224_j0qpqd.webp,https://res.cloudinary.com/dkskckiik/image/upload/v1775434010/IMG_8225_w6eclc.webp,,,TRUE
+3,Polo ICONK Never Say Never,polos,Polos,TRUE,Polo oversized beige con gráfico ICONK,"S,M,L",,S/ 89,https://res.cloudinary.com/dkskckiik/image/upload/v1775434013/IMG_8230_sr0vub.webp,,,,TRUE
+4,Polo Estampado,polos,Polos,TRUE,Polo con diseño K-pop exclusivo,"S,M,L",,S/ 89,https://res.cloudinary.com/dkskckiik/image/upload/v1775434007/IMG_8221_getu5p.webp,,,,TRUE
+5,Polo Estampado,polos,Polos,TRUE,Polo con diseño K-pop exclusivo,"S,M,L",,S/ 89,https://res.cloudinary.com/dkskckiik/image/upload/v1775434008/IMG_8222_fbz5op.webp,,,,TRUE
+6,Polo Estampado,polos,Polos,TRUE,Polo con diseño K-pop exclusivo,"S,M,L",,S/ 89,https://res.cloudinary.com/dkskckiik/image/upload/v1775434009/IMG_8223_cwaosj.webp,,,,TRUE
+7,Sweater Home — Nº 7,sweaters,Sweaters & Casacas,TRUE,Sweater tejido blanco con bordado Home y número 7,"S,M,L",,S/ 129,https://res.cloudinary.com/dkskckiik/image/upload/v1775433985/IMG_8182_tzfjqp.webp,,,,TRUE
+8,Casaca Graffiti K-pop,sweaters,Sweaters & Casacas,TRUE,Casaca ligera con estampado all-over graffiti cierre frontal,"S,M,L",,S/ 149,https://res.cloudinary.com/dkskckiik/image/upload/v1775433992/IMG_8195_negpdi.webp,,,,TRUE
+9,Sweater / Casaca,sweaters,Sweaters & Casacas,TRUE,Prenda de abrigo estilo coreano,"S,M,L",,S/ 129,https://res.cloudinary.com/dkskckiik/image/upload/v1775433985/IMG_8183_j5fkop.webp,,,,TRUE
+10,Sweater / Casaca,sweaters,Sweaters & Casacas,TRUE,Prenda de abrigo estilo coreano,"S,M,L",,S/ 129,https://res.cloudinary.com/dkskckiik/image/upload/v1775433992/IMG_8196_na4ct3.webp,,,,TRUE
+11,Sweater / Casaca,sweaters,Sweaters & Casacas,TRUE,Prenda de abrigo estilo coreano,"S,M,L",,S/ 129,https://res.cloudinary.com/dkskckiik/image/upload/v1775433993/IMG_8197_adkktc.webp,,,,TRUE
+12,Sweater / Casaca,sweaters,Sweaters & Casacas,TRUE,Prenda de abrigo estilo coreano,"S,M,L",,S/ 129,https://res.cloudinary.com/dkskckiik/image/upload/v1775433994/IMG_8198_iventx.webp,,,,TRUE
+13,Sweater / Casaca,sweaters,Sweaters & Casacas,TRUE,Prenda de abrigo estilo coreano,"S,M,L",,S/ 129,https://res.cloudinary.com/dkskckiik/image/upload/v1775433995/IMG_8199_bqbfz6.webp,,,,TRUE
+14,Sweater / Casaca,sweaters,Sweaters & Casacas,TRUE,Prenda de abrigo estilo coreano,"S,M,L",,S/ 129,https://res.cloudinary.com/dkskckiik/image/upload/v1775433996/IMG_8200_mfvl5z.webp,,,,TRUE
+15,Sweater / Casaca,sweaters,Sweaters & Casacas,TRUE,Prenda de abrigo estilo coreano,"S,M,L",,S/ 129,https://res.cloudinary.com/dkskckiik/image/upload/v1775754004/IMG_8297_krovmr.jpg,https://res.cloudinary.com/dkskckiik/image/upload/v1775754005/IMG_8298_wy9ibs.jpg,,,TRUE
+16,Blusa Encaje Crochet,blusas,Camisas & Blusas,TRUE,Blusa blanca con panel de encaje crochet y mangas largas,"S,M,L",,S/ 109,https://res.cloudinary.com/dkskckiik/image/upload/v1775433773/IMG_8181_a2mosd.webp,,,,TRUE
+17,Camisa / Blusa,blusas,Camisas & Blusas,TRUE,Camisa estilo coreano diseño delicado,"S,M,L",,S/ 109,https://res.cloudinary.com/dkskckiik/image/upload/v1775433985/IMG_8187_o0wihd.webp,,,,TRUE
+18,Camisa / Blusa,blusas,Camisas & Blusas,TRUE,Camisa estilo coreano diseño delicado,"S,M,L",,S/ 109,https://res.cloudinary.com/dkskckiik/image/upload/v1775433986/IMG_8188_x6db2m.webp,,,,TRUE
+19,Camisa / Blusa,blusas,Camisas & Blusas,TRUE,Camisa estilo coreano diseño delicado,"S,M,L",,S/ 109,https://res.cloudinary.com/dkskckiik/image/upload/v1775433987/IMG_8189_t7ksov.webp,,,,TRUE
+20,Chaleco Cuadros Houndstooth,chalecos,Chalecos,TRUE,Chaleco sastre a cuadros blancos y negros solapa ancha,"S,M,L",,S/ 119,https://res.cloudinary.com/dkskckiik/image/upload/v1775433988/IMG_8190_fmlu1p.webp,,,,TRUE
+21,Chaleco,chalecos,Chalecos,TRUE,Chaleco estilo coreano,"S,M,L",,S/ 119,https://res.cloudinary.com/dkskckiik/image/upload/v1775433989/IMG_8191_kqodmg.webp,,,,TRUE
+22,Chaleco,chalecos,Chalecos,TRUE,Chaleco estilo coreano,"S,M,L",,S/ 119,https://res.cloudinary.com/dkskckiik/image/upload/v1775433990/IMG_8192_zrrh7s.webp,,,,TRUE
+23,Chaleco,chalecos,Chalecos,TRUE,Chaleco estilo coreano,"S,M,L",,S/ 119,https://res.cloudinary.com/dkskckiik/image/upload/v1775433991/IMG_8193_ikbrud.webp,,,,TRUE
+24,Chaleco,chalecos,Chalecos,TRUE,Chaleco estilo coreano,"S,M,L",,S/ 119,https://res.cloudinary.com/dkskckiik/image/upload/v1775433991/IMG_8194_t0ngzv.webp,,,,TRUE
+25,Gorra BTS Blanca,gorros,Gorros & Accesorios,TRUE,Gorra blanca con bordado BTS en tono lila,Talla única,,S/ 59,https://res.cloudinary.com/dkskckiik/image/upload/v1775433999/IMG_8210_jgocdd.webp,,,,TRUE
+26,Gorro / Accesorio,gorros,Gorros & Accesorios,TRUE,Accesorio K-pop edición especial,Talla única,,S/ 59,https://res.cloudinary.com/dkskckiik/image/upload/v1775433999/IMG_8211_xctfwz.webp,,,,TRUE
+27,Gorro / Accesorio,gorros,Gorros & Accesorios,TRUE,Accesorio K-pop edición especial,Talla única,,S/ 59,https://res.cloudinary.com/dkskckiik/image/upload/v1775434001/IMG_8212_rlkhy5.webp,,,,TRUE
+28,Gorro / Accesorio,gorros,Gorros & Accesorios,TRUE,Accesorio K-pop edición especial,Talla única,,S/ 59,https://res.cloudinary.com/dkskckiik/image/upload/v1775433999/IMG_8209_uckkk9.webp,,,,TRUE
+29,Overol Denim Coreano,overoles,Overoles,TRUE,Overol denim corto con bordado en coreano y flores,"S,M,L",,S/ 159,https://res.cloudinary.com/dkskckiik/image/upload/v1775433986/IMG_8186_jqr7jk.webp,https://res.cloudinary.com/dkskckiik/image/upload/v1775433985/IMG_8185_azksr3.webp,,,TRUE
+30,Prenda K-pop,otros,Más Prendas,TRUE,Diseño exclusivo estilo coreano,"S,M,L",,S/ 99,https://res.cloudinary.com/dkskckiik/image/upload/v1775433996/IMG_8202_qjh5n0.webp,,,,TRUE
+31,Prenda K-pop,otros,Más Prendas,TRUE,Diseño exclusivo estilo coreano,"S,M,L",,S/ 99,https://res.cloudinary.com/dkskckiik/image/upload/v1775433997/IMG_8204_kgadcw.webp,,,,TRUE
+32,Prenda K-pop,otros,Más Prendas,TRUE,Diseño exclusivo estilo coreano,"S,M,L",,S/ 99,https://res.cloudinary.com/dkskckiik/image/upload/v1775434001/IMG_8213_mmvtly.webp,,,,TRUE
+33,Prenda K-pop,otros,Más Prendas,TRUE,Diseño exclusivo estilo coreano,"S,M,L",,S/ 99,https://res.cloudinary.com/dkskckiik/image/upload/v1775434002/IMG_8214_ztjysn.webp,,,,TRUE
+34,Prenda K-pop,otros,Más Prendas,TRUE,Diseño exclusivo estilo coreano,"S,M,L",,S/ 99,https://res.cloudinary.com/dkskckiik/image/upload/v1775434002/IMG_8215_xdeqmy.webp,,,,TRUE
+35,Prenda K-pop,otros,Más Prendas,TRUE,Diseño exclusivo estilo coreano,"S,M,L",,S/ 99,https://res.cloudinary.com/dkskckiik/image/upload/v1775434003/IMG_8216_jsenvj.webp,,,,TRUE
+36,Prenda K-pop,otros,Más Prendas,TRUE,Diseño exclusivo estilo coreano,"S,M,L",,S/ 99,https://res.cloudinary.com/dkskckiik/image/upload/v1775434004/IMG_8217_yg6rng.webp,,,,TRUE
+37,Prenda K-pop,otros,Más Prendas,TRUE,Diseño exclusivo estilo coreano,"S,M,L",,S/ 99,https://res.cloudinary.com/dkskckiik/image/upload/v1775434005/IMG_8218_cmh1wj.webp,,,,TRUE
+38,Prenda K-pop,otros,Más Prendas,TRUE,Diseño exclusivo estilo coreano,"S,M,L",,S/ 99,https://res.cloudinary.com/dkskckiik/image/upload/v1775434005/IMG_8219_c9c2sw.webp,,,,TRUE
+39,Prenda K-pop,otros,Más Prendas,TRUE,Diseño exclusivo estilo coreano,"S,M,L",,S/ 99,https://res.cloudinary.com/dkskckiik/image/upload/v1775434011/IMG_8227_gdaz4p.webp,https://res.cloudinary.com/dkskckiik/image/upload/v1775434011/IMG_8228_vxwxv0.webp,,,TRUE
+40,Prenda K-pop,otros,Más Prendas,TRUE,Diseño exclusivo estilo coreano,"S,M,L",,S/ 99,https://res.cloudinary.com/dkskckiik/image/upload/v1775434012/IMG_8229_h8519f.webp,,,,TRUE
+41,Prenda K-pop,otros,Más Prendas,TRUE,Diseño exclusivo estilo coreano,"S,M,L",,S/ 99,https://res.cloudinary.com/dkskckiik/image/upload/v1775434014/IMG_8231_exds3c.webp,,,,TRUE
+42,Prenda K-pop,otros,Más Prendas,TRUE,Diseño exclusivo estilo coreano,"S,M,L",,S/ 99,https://res.cloudinary.com/dkskckiik/image/upload/v1775434015/IMG_8232_c2tm7s.webp,,,,TRUE
+43,Prenda K-pop,otros,Más Prendas,TRUE,Diseño exclusivo estilo coreano,"S,M,L",,S/ 99,https://res.cloudinary.com/dkskckiik/image/upload/v1775434015/IMG_8233_q5kuh8.webp,https://res.cloudinary.com/dkskckiik/image/upload/v1775753951/IMG_8296_b8zrig.jpg,,,TRUE
+44,Prenda K-pop,otros,Más Prendas,TRUE,Diseño exclusivo estilo coreano,"S,M,L",,S/ 99,https://res.cloudinary.com/dkskckiik/image/upload/v1775434016/IMG_8234_khyshj.webp,,,,TRUE
