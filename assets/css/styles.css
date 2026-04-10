@@ -612,6 +612,140 @@ nav.scrolled {
   .product-card-cta .cta-label { display: none; }
 }
 
+/* ── ARTISTS SECTION ── */
+.artists-section {
+  padding: 5rem 1.5rem;
+  background: var(--rose-light);
+}
+
+.artists-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.artists-desc {
+  color: var(--gray);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  max-width: 640px;
+  margin: 0 auto 2.5rem;
+}
+
+.artists-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: center;
+}
+
+.artists-grid span {
+  background: var(--white);
+  color: var(--black);
+  border: 1.5px solid var(--rose-dark);
+  border-radius: 2rem;
+  padding: 0.35rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+/* ── FAQ SECTION ── */
+.faq-section {
+  padding: 5rem 1.5rem;
+  background: var(--white);
+}
+
+.faq-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.faq-list {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.faq-item {
+  border: 1.5px solid var(--gray-border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.faq-item summary {
+  padding: 1rem 1.2rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.faq-item summary::-webkit-details-marker { display: none; }
+
+.faq-item summary::after {
+  content: '+';
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: var(--rose-dark);
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+
+.faq-item[open] summary::after {
+  transform: rotate(45deg);
+}
+
+.faq-item[open] {
+  border-color: var(--rose-dark);
+}
+
+.faq-item[open] summary {
+  border-bottom: 1px solid var(--gray-border);
+}
+
+.faq-item p {
+  padding: 1rem 1.2rem;
+  font-size: 0.88rem;
+  color: var(--gray);
+  line-height: 1.7;
+}
+
+.faq-item p a {
+  color: var(--black);
+  font-weight: 600;
+}
+
+.faq-couriers {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0 1.2rem 1rem;
+  flex-wrap: wrap;
+}
+
+.courier-badge {
+  display: inline-block;
+  padding: 0.3rem 0.9rem;
+  border-radius: 2rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.courier-olva  { background: #ff6b00; color: #fff; }
+.courier-shalom { background: #0057a8; color: #fff; }
+
+@media (max-width: 768px) {
+  .artists-section,
+  .faq-section { padding: 3.5rem 1.2rem; }
+}
+
 /* ── ABOUT SECTION ── */
 .about-section {
   padding: 6rem 0;
