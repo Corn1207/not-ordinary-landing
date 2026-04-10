@@ -79,6 +79,7 @@ function createCard(product, categoryName, categoryId) {
   `;
 
   if (hasMultiple) initCarousel(card, imgs.length);
+  if (imgs.length) attachLightbox(card, imgs);
   return card;
 }
 

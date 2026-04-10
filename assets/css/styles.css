@@ -796,6 +796,23 @@ footer {
   letter-spacing: 0.08em;
 }
 
+/* ── PHOTOSWIPE CUSTOM THEME ── */
+.pswp__bg { background: rgba(0,0,0,0.92) !important; }
+
+.pswp__button--close,
+.pswp__button--arrow--prev,
+.pswp__button--arrow--next {
+  --pswp-icon-color: #fff;
+  --pswp-icon-color-secondary: rgba(255,255,255,0.15);
+}
+
+.pswp__counter {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  opacity: 0.6;
+}
+
 /* ── FADE IN ANIMATION ── */
 .fade-in {
   opacity: 0;
