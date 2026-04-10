@@ -168,12 +168,22 @@ function showError() {
 
 /* ── INIT ── */
 showLoading();
-loadCatalog()
-  .then(categories => {
-    gridEl.innerHTML = '';
-    renderCatalog(categories);
-  })
-  .catch(err => {
-    console.error('Error cargando catálogo:', err);
-    showError();
-  });
+
+// Defer catalog fetch until after first paint so LCP is not blocked
+function initCatalog() {
+  loadCatalog()
+    .then(categories => {
+      gridEl.innerHTML = '';
+      renderCatalog(categories);
+    })
+    .catch(err => {
+      console.error('Error cargando catálogo:', err);
+      showError();
+    });
+}
+
+if ('requestIdleCallback' in window) {
+  requestIdleCallback(initCatalog, { timeout: 3000 });
+} else {
+  setTimeout(initCatalog, 200);
+}
