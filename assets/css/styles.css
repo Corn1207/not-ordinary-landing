@@ -764,21 +764,13 @@ nav.scrolled {
   color: #fff;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
   padding: 0.35rem 0.9rem;
-  overflow: hidden;
 }
 
 .courier-shalom img {
   display: block;
   height: 18px;
   width: auto;
-  /* El SVG es cuadrado — lo recortamos para mostrar solo el texto central */
-  object-fit: cover;
-  object-position: center;
-  aspect-ratio: 4 / 1;
-  width: 72px;
-  height: 18px;
 }
 
 @media (max-width: 768px) {
