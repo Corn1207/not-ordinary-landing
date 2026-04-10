@@ -406,6 +406,18 @@ nav.scrolled {
   gap: 1.4rem;
 }
 
+.catalog-category-heading {
+  grid-column: 1 / -1;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.08em;
+  color: var(--black);
+  border-bottom: 1.5px solid var(--rose-dark);
+  padding-bottom: 0.4rem;
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+}
+
 /* ── PRODUCT CARD ── */
 .product-card {
   background: var(--white);
@@ -478,13 +490,17 @@ nav.scrolled {
   top: 10px; left: 10px;
   background: var(--white);
   color: var(--gray);
-  padding: 0.25rem 0.7rem;
+  padding: 0.25rem 0.6rem;
   border-radius: 2rem;
-  font-size: 0.65rem;
-  letter-spacing: 0.1em;
+  font-size: 0.6rem;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
   font-weight: 600;
   border: 1px solid var(--gray-border);
+  white-space: nowrap;
+  max-width: calc(100% - 20px);
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .product-card-body {

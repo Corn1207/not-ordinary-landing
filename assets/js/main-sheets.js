@@ -116,8 +116,14 @@ function renderCatalog(categories) {
     filtersEl.appendChild(btn);
   });
 
-  // Cards
+  // Cards agrupadas por categoría
   visibleCategories.forEach(cat => {
+    const heading = document.createElement('h3');
+    heading.className = 'catalog-category-heading';
+    heading.dataset.category = cat.id;
+    heading.textContent = cat.name;
+    gridEl.appendChild(heading);
+
     cat.products.filter(p => p.visible).forEach(p => {
       gridEl.appendChild(createCard(p, cat.name, cat.id));
     });
@@ -132,8 +138,12 @@ function renderCatalog(categories) {
       b.setAttribute('aria-selected', b === btn);
     });
     const cat = btn.dataset.category;
+    const showAll = cat === 'all';
     gridEl.querySelectorAll('.product-card').forEach(card => {
-      card.style.display = (cat === 'all' || card.dataset.category === cat) ? '' : 'none';
+      card.style.display = (showAll || card.dataset.category === cat) ? '' : 'none';
+    });
+    gridEl.querySelectorAll('.catalog-category-heading').forEach(h => {
+      h.style.display = (showAll || h.dataset.category === cat) ? '' : 'none';
     });
   });
 
