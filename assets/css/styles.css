@@ -6,6 +6,8 @@
 /* ── RESET & VARIABLES ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+html { overflow-x: hidden; }
+
 :root {
   --black:      #111111;
   --white:      #ffffff;
@@ -24,7 +26,6 @@ body {
   color: var(--black);
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
 
