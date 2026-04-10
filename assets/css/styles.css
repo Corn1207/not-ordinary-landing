@@ -348,6 +348,13 @@ nav.scrolled {
   font-weight: 300;
 }
 
+.catalog-sub a {
+  color: var(--black);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 /* ── SECTION LABELS ── */
 .section-eyebrow {
   font-size: 0.72rem;
