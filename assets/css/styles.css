@@ -420,6 +420,8 @@ nav.scrolled {
 
 /* ── PRODUCT CARD ── */
 .product-card {
+  display: flex;
+  flex-direction: column;
   background: var(--white);
   border: 1.5px solid var(--gray-border);
   border-radius: 16px;
@@ -504,6 +506,9 @@ nav.scrolled {
 }
 
 .product-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   padding: 1rem 1.1rem 1.2rem;
 }
 
@@ -524,13 +529,17 @@ nav.scrolled {
 }
 
 .product-card-sizes {
-  display: flex;
-  gap: 0.35rem;
-  flex-wrap: wrap;
+  display: block;
   margin-bottom: 0.9rem;
 }
 
+.product-card-sizes .size-chip {
+  margin: 0 0.3rem 0.3rem 0;
+}
+
 .size-chip {
+  display: inline-block;
+  white-space: nowrap;
   background: var(--rose-light);
   color: var(--gray);
   padding: 0.2rem 0.55rem;
@@ -564,6 +573,7 @@ nav.scrolled {
   align-items: center;
   justify-content: space-between;
   gap: 0.5rem;
+  margin-top: auto;
 }
 
 .product-card-price {
@@ -827,6 +837,29 @@ footer {
   font-size: 0.8rem;
   letter-spacing: 0.08em;
   opacity: 0.6;
+}
+
+/* ── WHATSAPP FAB ── */
+.whatsapp-fab {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 900;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25d366;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.45);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.whatsapp-fab:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 24px rgba(37, 211, 102, 0.6);
 }
 
 /* ── FADE IN ANIMATION ── */
