@@ -70,7 +70,7 @@ function createCard(product, categoryName, categoryId) {
         <span class="product-card-price">${product.price}</span>
         ${product.igPost
           ? `<a href="${product.igPost}" target="_blank" rel="noopener" class="product-card-cta">
-              ${IG_ICON} Ver en IG
+              ${IG_ICON} <span class="cta-label">Ver en IG</span>
              </a>`
           : ''
         }

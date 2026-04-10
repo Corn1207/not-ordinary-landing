@@ -576,6 +576,15 @@ nav.scrolled {
 
 .product-card-cta svg { flex-shrink: 0; }
 
+.product-card-cta .cta-label { display: inline; }
+
+@media (max-width: 768px) {
+  .product-card-cta {
+    padding: 0.45rem 0.6rem;
+  }
+  .product-card-cta .cta-label { display: none; }
+}
+
 /* ── ABOUT SECTION ── */
 .about-section {
   padding: 6rem 0;
