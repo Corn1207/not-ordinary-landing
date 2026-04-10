@@ -745,8 +745,21 @@ nav.scrolled {
   letter-spacing: 0.05em;
 }
 
-.courier-olva  { background: #ff6b00; color: #fff; }
-.courier-shalom { background: #0057a8; color: #fff; }
+.courier-olva {
+  background: #ff6b00;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.9rem;
+}
+
+.courier-olva img {
+  display: block;
+  height: 18px;
+  width: auto;
+}
+
+.courier-shalom { background: #e30613; color: #fff; }
 
 @media (max-width: 768px) {
   .artists-section,
