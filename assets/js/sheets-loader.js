@@ -75,6 +75,7 @@ function parseCSV(text) {
       imgs,
       igPost:      row.igPost || '',
       visible:     row.visible.toUpperCase() !== 'FALSE',
+      novedad:     row.novedad?.toUpperCase() === 'TRUE',
     });
   });
 

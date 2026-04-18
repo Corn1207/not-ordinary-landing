@@ -34,6 +34,7 @@ function createCard(product, categoryName, categoryId) {
   const card = document.createElement('div');
   card.className = 'product-card fade-in';
   card.dataset.category = categoryId;
+  card.dataset.novedad  = product.novedad ? 'true' : 'false';
 
   const imgs = product.imgs || [];
   const hasMultiple = imgs.length > 1;
@@ -51,7 +52,10 @@ function createCard(product, categoryName, categoryId) {
   card.innerHTML = `
     <div class="product-card-img">
       ${imgsHTML}
-      <span class="product-card-category">${categoryName}</span>
+      <div class="product-card-badges">
+        <span class="product-card-category">${categoryName}</span>
+        ${product.novedad ? `<span class="badge-novedad">✦ Novedad</span>` : ''}
+      </div>
       ${dotsHTML}
     </div>
     <div class="product-card-body">
@@ -106,6 +110,17 @@ function renderCatalog(categories) {
   );
 
   // Filtros
+  const hasNovedades = visibleCategories.some(cat => cat.products.some(p => p.visible && p.novedad));
+  if (hasNovedades) {
+    const btnNov = document.createElement('button');
+    btnNov.className = 'filter-btn filter-btn--novedad';
+    btnNov.dataset.category = 'novedad';
+    btnNov.setAttribute('role', 'tab');
+    btnNov.setAttribute('aria-selected', 'false');
+    btnNov.textContent = '✦ Novedad';
+    filtersEl.appendChild(btnNov);
+  }
+
   visibleCategories.forEach(cat => {
     const btn = document.createElement('button');
     btn.className = 'filter-btn';
@@ -116,7 +131,7 @@ function renderCatalog(categories) {
     filtersEl.appendChild(btn);
   });
 
-  // Cards agrupadas por categoría
+  // Cards agrupadas por categoría — novedades primero dentro de cada grupo
   visibleCategories.forEach(cat => {
     const heading = document.createElement('h3');
     heading.className = 'catalog-category-heading';
@@ -124,9 +139,9 @@ function renderCatalog(categories) {
     heading.textContent = cat.name;
     gridEl.appendChild(heading);
 
-    cat.products.filter(p => p.visible).forEach(p => {
-      gridEl.appendChild(createCard(p, cat.name, cat.id));
-    });
+    const visible = cat.products.filter(p => p.visible);
+    const sorted  = [...visible.filter(p => p.novedad), ...visible.filter(p => !p.novedad)];
+    sorted.forEach(p => gridEl.appendChild(createCard(p, cat.name, cat.id)));
   });
 
   // Filtrado
@@ -138,12 +153,20 @@ function renderCatalog(categories) {
       b.setAttribute('aria-selected', b === btn);
     });
     const cat = btn.dataset.category;
-    const showAll = cat === 'all';
+    const showAll     = cat === 'all';
+    const showNovedad = cat === 'novedad';
+
     gridEl.querySelectorAll('.product-card').forEach(card => {
-      card.style.display = (showAll || card.dataset.category === cat) ? '' : 'none';
+      const matchCat = showAll || card.dataset.category === cat;
+      const matchNov = showNovedad && card.dataset.novedad === 'true';
+      card.style.display = (matchCat || matchNov) ? '' : 'none';
     });
     gridEl.querySelectorAll('.catalog-category-heading').forEach(h => {
-      h.style.display = (showAll || h.dataset.category === cat) ? '' : 'none';
+      if (showNovedad) {
+        h.style.display = 'none';
+      } else {
+        h.style.display = (showAll || h.dataset.category === cat) ? '' : 'none';
+      }
     });
   });
 
