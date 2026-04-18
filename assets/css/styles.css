@@ -715,6 +715,7 @@ nav.scrolled {
   border: 1.5px solid var(--gray-border);
   border-radius: 12px;
   overflow: hidden;
+  background: var(--white);
 }
 
 .faq-item summary {
