@@ -534,17 +534,19 @@ nav.scrolled {
 }
 
 .filter-btn--novedad {
-  background: var(--black);
-  color: var(--white);
   border-color: var(--black);
+  color: var(--black);
 }
 
-.filter-btn--novedad:hover,
+.filter-btn--novedad:hover {
+  background: var(--black);
+  color: var(--white);
+}
+
 .filter-btn--novedad.active {
   background: var(--black);
   color: var(--white);
   border-color: var(--black);
-  opacity: 0.85;
 }
 
 .product-card-body {
