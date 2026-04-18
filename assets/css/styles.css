@@ -697,8 +697,6 @@ nav.scrolled {
 .faq-section {
   padding: 5rem 1.5rem;
   background: var(--white);
-  position: relative;
-  z-index: 1;
 }
 
 .faq-inner {
@@ -717,7 +715,9 @@ nav.scrolled {
   border: 1.5px solid var(--gray-border);
   border-radius: 12px;
   overflow: hidden;
-  background: var(--white);
+  background: #ffffff;
+  position: relative;
+  z-index: 1;
 }
 
 .faq-item summary {
