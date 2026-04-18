@@ -83,7 +83,20 @@ function createCard(product, categoryName, categoryId) {
   `;
 
   if (hasMultiple) initCarousel(card, imgs.length);
-  if (imgs.length) attachLightbox(card, imgs);
+  if (imgs.length) {
+    attachLightbox(card, imgs);
+    card.querySelector('.product-card-img').addEventListener('click', e => {
+      if (e.target.closest('.card-dot') || e.target.closest('.product-card-cta')) return;
+      track('product_photo_click', { product: product.name, category: categoryId });
+    });
+  }
+
+  if (product.igPost) {
+    card.querySelector('.product-card-cta')?.addEventListener('click', () => {
+      track('ver_en_ig_click', { product: product.name, category: categoryId });
+    });
+  }
+
   return card;
 }
 
